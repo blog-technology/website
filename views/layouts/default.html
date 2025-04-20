@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+  <head>
+    <meta name="theme-color" content="#008577" />
+    <meta name="color-scheme" content="light" />
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" href="/logo192.png" />
+    <link rel="stylesheet" href="/fonts/material-icon/css/material-icons.css" />
+    <link rel="stylesheet" href="/fonts/Roboto/font.css" />
+    {% include "partials/css.html" %}
+    <!--
+    manifest.json provides metadata used when your web app is installed on a
+    user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="/manifest.json" />
+    <title>Website</title>
+  </head>
+  <body id="sysBody" class="full-header top-menu">
+    {% include "partials/common.html" %}
+    <div id="root">
+      <div class="sidebar-parent menu-on">
+        <div class="top-banner">
+          <div class="logo-banner-wrapper">
+            <img src="https://jacobspradlin.files.wordpress.com/2014/10/banner-people-connected.png" alt="Banner of The Company" />
+            <img src="https://jacobspradlin.files.wordpress.com/2014/10/banner-people-connected.png" class="banner-logo-title" alt="Logo of The Company" />
+          </div>
+        </div>
+        <div class="menu sidebar">{% include "partials/navigation.html" %}</div>
+        <div id="pageContainer" class="page-container">
+          {% include "partials/header.html" %}
+          <div id="pageBody" class="page-body">{% block content %}{% endblock %}</div>
+        </div>
+      </div>
+    </div>
+    {% include "partials/resource.html" %}
+    <script src="/static/ui.js"></script>
+    <script src="/static/validator.js"></script>
+    <script src="/static/index.js"></script>
+    <script src="/static/search.js"></script>
+    <script src="/static/layout.js"></script>
+  </body>
+</html>
