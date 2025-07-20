@@ -328,20 +328,20 @@ insert into categories (id,name,status,path,resource_key,icon,sequence,type,pare
  ('node','node','A','/node','node','credit_card',5,'',''),
  ('frontend','Frontend','A','/frontend','frontend','work',6,'',''),
 
- ('cloud','Cloud','A','/cloud','cloud','zoom_in',1,'','concept'),
- ('cloud-services','Cloud Services','A','/cloud-services','cloud_services','zoom_in',2,'','concept'),
- ('serverless','Serverless','A','/serverless','serverless','zoom_in',3,'','concept'),
- ('cdn','CDN','A','/cdn','cdn','zoom_in',4,'','concept'),
+ ('cloud','Cloud','A','/cloud','cloud','zoom_in',1,'','concept'),  /* Done GPT */
+ ('cloud-services','Cloud Services','A','/cloud-services','cloud_services','zoom_in',2,'','concept'), /* Done GPT */
+ ('serverless','Serverless','A','/serverless','serverless','zoom_in',3,'','concept'), /* Done GPT */
+ ('cdn','CDN','A','/cdn','cdn','zoom_in',4,'','concept'), /* Done GPT */
  ('three-tier-application','Three-tier application','A','/three-tier-application','three_tier_application','zoom_in',10,'','concept'),
- ('cluster','Cluster','A','/cluster','cluster','zoom_in',11,'','concept'),
+ ('cluster','Cluster','A','/cluster','cluster','zoom_in',11,'','concept'), /* Done GPT */
  ('virtual-machine','Virtual Machine','A','/virtual-machine','virtual_machine','zoom_in',12,'','concept'),
  ('docker','Docker','A','/docker','docker','credit_card',13,'','concept'),
  ('kubernetes','Kubernetes','A','/kubernetes','kubernetes','credit_card',14,'','concept'),
  ('cicd','CI/CD','A','/cicd','cicd','zoom_in',15,'','concept'),
  ('devops','DevOps','A','/devops','devops','credit_card',16,'','concept'),
  ('devsecops','DevSecOps','A','/devsecops','devsecops','credit_card',17,'','concept'),
- ('ldap','LDAP','A','/ldap','ldap','zoom_in',18,'','concept'),
- ('orm','ORM','A','/orm','orm','assignment',19,'','concept'),
+ ('ldap','LDAP','A','/ldap','ldap','zoom_in',18,'','concept'), /* Done GPT */
+ ('orm','ORM','A','/orm','orm','assignment',19,'','concept'), /* Should include details advantages and disadvantages or not */
  ('message-queue','Message Queue','A','/message-queue','message_queue','mail',20,'','concept'),
  ('forward-proxy','Forward Proxy','A','/forward-proxy','forward_proxy','zoom_in',21,'','concept'),
  ('reverse-proxy','Reverse Proxy','A','/reverse-proxy','reverse_proxy','zoom_in',22,'','concept'),
@@ -358,9 +358,9 @@ insert into categories (id,name,status,path,resource_key,icon,sequence,type,pare
  ('event-sourcing-architecture','Event Sourcing Architecture','A','/event-sourcing-architecture','event_sourcing_architecture','credit_card',10,'','design'), 
  ('microkernel-architecture','Microkernel Architecture','A','/microkernel-architecture','microkernel_architecture','credit_card',11,'','design'),
 
- ('owasp','OWASP','A','/owasp','owasp','credit_card',1,'','security'),
+ ('owasp','OWASP','A','/owasp','owasp','credit_card',1,'','security'), /* Done GPT */
  ('soc-2-type-ii','SOC 2 Type II','A','/soc-2-type-ii','soc_2_type_ii','credit_card',2,'','security'),
- ('soc-2-type-ii-checklist','SOC 2 Type II Checklist','A','/soc-2-type-ii-checklist','soc_2_type_ii_checklist','credit_card',3,'','security'),
+ ('soc-2-type-ii-checklist','SOC 2 Type II Checklist','A','/soc-2-type-ii-checklist','soc_2_type_ii_checklist','credit_card',3,'','security'), /* Done GPT */
  ('waf-hips-fim','WAF, HIPS, FIM Protection','A','/waf-hips-fim','waf_hips_fim_protection','credit_card',4,'','security'),
  ('hardening-va-scan-pentest','Hardening Scan - VA Scan - Pentest','A','/hardening-va-scan-pentest','waf_hips_fim_protection','credit_card',5,'','security'),
  ('sql-injection','SQL Injection','A','/sql-injection','sql_injection','assignment',6,'','security'),
